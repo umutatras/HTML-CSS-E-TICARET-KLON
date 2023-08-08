@@ -1,0 +1,142 @@
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 0.8;
+    margin-bottom: 4px;
+}
+
+/* ! categories start */
+.categories {
+    margin: 40px 0;
+
+}
+
+.categories .category-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+/* ! categories end */
+
+/* ! products start */
+.products {
+    margin-bottom: 40px;
+}
+
+.products .product-list {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* ! products end */
+
+
+/* ! campaigns start */
+.campaigns .campaigns-wrapper {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+
+}
+
+/* ! campaigns start */
+
+/* ! blog start */
+.blogs {
+    margin-bottom: 30px;
+  }
+  
+  .blogs .blog-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  /*! blogs end  */
+  
+  /*! responsive  */
+  
+  @media (max-width: 768px) {
+    .blogs .blog-list {
+      grid-template-columns: 1fr;
+    }
+    .policy .policy-list{
+      flex-direction: column;    
+    }
+
+  }
+
+/* ! blog end */
+
+/* ! brand start */
+.brands{
+    margin: 40px 0;
+  }
+
+  .brand-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #dee0ea;
+    padding: 30px 5px;
+  }
+
+  .brand-list .brand-item{
+    opacity: 0.4;
+    transition: .2s ease opacity;
+  }
+
+  .brand-list .brand-item:hover{
+    opacity: 1;
+  }
+/* ! brand end */
+
+
+/* !policy start */
+
+.policy{
+  border: 1px solid #dee0ea;
+  margin-top: 40px;
+}
+.policy .policy-list{
+ display: flex;
+ padding: 25px 0;
+ justify-content: space-between;
+ flex-wrap: wrap;
+
+
+}
+.policy-list .policy-item{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+ 
+ }
+
+ .policy-list .policy-item i{
+  display: flex;
+ font-size: 50px;
+ 
+ }
+ .policy-list .policy-texts strong{
+  font-weight: 600;
+ 
+ }
+ .policy-list .policy-texts span{
+  font-size: 12px;
+ 
+ }
+ 
+
+/* !policy end */
